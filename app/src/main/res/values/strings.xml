@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TMT</string>
+    <string name="nombre">Nombre:</string>
+    <string name="direccion">Dirección:</string>
+    <string name="ciudad">Ciudad:</string>
+    <string name="longitud">Longitud:</string>
+    <string name="latitud">Latitud:</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

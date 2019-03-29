@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.FragmentDetalles">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/viewNombreDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre"
+                android:layout_margin="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/negro"/>
+
+            <TextView
+                android:id="@+id/textoNombreDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/negro"
+                android:textSize="25sp"
+                tools:text="Florida"
+                android:layout_toRightOf="@id/viewNombreDetalle"/>
+
+            <TextView
+                android:id="@+id/viewDireccionDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/direccion"
+                android:layout_margin="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/negro"
+                android:layout_below="@id/textoNombreDetalle"/>
+
+            <TextView
+                android:id="@+id/textoDireccionDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/negro"
+                android:textSize="25sp"
+                tools:text="Av San Martín 3055"
+                android:layout_toRightOf="@id/viewDireccionDetalle"
+                android:layout_below="@id/textoNombreDetalle"/>
+
+            <TextView
+                android:id="@+id/viewCiudadDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ciudad"
+                android:layout_margin="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/negro"
+                android:layout_below="@id/textoDireccionDetalle"/>
+
+            <TextView
+                android:id="@+id/textoCiudadDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/negro"
+                android:textSize="25sp"
+                tools:text="C.A.B.A."
+                android:layout_toRightOf="@id/viewCiudadDetalle"
+                android:layout_below="@id/textoDireccionDetalle"/>
+
+            <TextView
+                android:id="@+id/viewLatitudDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/latitud"
+                android:layout_margin="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/negro"
+                android:layout_below="@id/textoCiudadDetalle"/>
+
+            <TextView
+                android:id="@+id/textoLatitudDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/negro"
+                android:textSize="25sp"
+                tools:text="Av San Martín 3055"
+                android:layout_toRightOf="@id/viewLatitudDetalle"
+                android:layout_below="@id/textoCiudadDetalle"/>
+
+            <TextView
+                android:id="@+id/viewLongitudDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/longitud"
+                android:layout_margin="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/negro"
+                android:layout_below="@id/textoLatitudDetalle"/>
+
+            <TextView
+                android:id="@+id/textoLongitudDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/negro"
+                android:textSize="25sp"
+                tools:text="Av San Martín 3055"
+                android:layout_toRightOf="@id/viewLongitudDetalle"
+                android:layout_below="@id/textoLatitudDetalle"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
