@@ -43,7 +43,7 @@
                 android:layout_margin="10dp"
                 android:textSize="25sp"
                 android:textColor="@color/negro"
-                android:layout_below="@id/viewNombre"/>
+                android:layout_below="@id/textoNombre"/>
 
             <TextView
                 android:id="@+id/textoDireccion"
